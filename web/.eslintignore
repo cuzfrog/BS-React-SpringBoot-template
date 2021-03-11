@@ -1,0 +1,6 @@
+build/*
+public/*
+
+webpack/*
+*.js
+test/__setup__/*

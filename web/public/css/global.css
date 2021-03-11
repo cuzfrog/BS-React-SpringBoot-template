@@ -1,0 +1,14 @@
+body {
+  height:100%;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  line-height: normal;
+} 
+
+body::-webkit-scrollbar { 
+  display: none;
+}
+
+table {
+  text-align: center;
+}

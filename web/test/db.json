@@ -1,0 +1,19 @@
+{
+  "sample-records": [
+    {
+      "id": 1,
+      "type": "A",
+      "status": "created"
+    },
+    {
+      "id": 2,
+      "type": "B",
+      "status": "closed"
+    },
+    {
+      "id": 3,
+      "type": "C",
+      "status": "created"
+    }
+  ]
+}

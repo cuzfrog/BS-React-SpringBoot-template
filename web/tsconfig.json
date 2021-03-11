@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "src/*": ["*"]
+    },
+    "plugins": [
+      {
+        "name": "typescript-plugin-css-modules",
+        "options": {
+          "customMatcher": "\\.(c|le|sa|sc)ss$",
+        }
+      }
+    ],
+    "outDir": "build/dist",
+    "module": "esnext",
+    "target": "es6",
+    "lib": ["es6", "dom"],
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "rootDir": ".",
+    "types": ["node"],
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/",
+    "test/"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "tmp",
+    "deprecated"
+  ]
+}

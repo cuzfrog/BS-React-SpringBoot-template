@@ -1,0 +1,7 @@
+server:
+  port: 56666
+  ssl:
+    key-store: ${KEYSTORE_PATH}
+    key-store-password: ${KEYSTORE_PW}
+security:
+  require-ssl: true
